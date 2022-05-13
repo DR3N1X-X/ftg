@@ -23,7 +23,7 @@ class ModulesLinkMod(loader.Module):
             if "http" not in link: 
                 text = f"Модуль {f}:" 
             else: 
-                text = f"<a href=\"{link}\">Ссылка</a> на 🇺🇦{f}: <code>{link}</code>" 
+                text = f"<a href=\"{link}\">Ссылка</a> на 📥{f}: <code>{link}</code>" 
  
             out = io.BytesIO(r.__loader__.data) 
             out.name = f + ".py" 
